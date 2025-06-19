@@ -1,0 +1,106 @@
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  color: #333;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+hr.intro-divider {
+  border: 1px solid #f8f8f8;
+  max-width: 400px;
+}
+
+.navbar {
+  background-color: #ffffff !important; /* 深蓝举例 */
+  border: none; /* 可选：去掉底部边框 */
+}
+
+.navbar .navbar-nav > li > a {
+  color: #0d4469 !important;      /* 白色字体 */
+  font-weight: 700;               /* 加粗 */
+  font-size: 18px;                /* 字体变大 */
+  text-decoration: none;          /* 无下划线（默认状态） */
+  transition: all 0.2s ease-in-out;
+  padding-right: 40px; 
+}
+
+/* 鼠标悬停样式 */
+.navbar .navbar-nav > li > a:hover {
+  text-decoration: underline;     /* 加下划线 */
+  color: #0d4469 !important;      /* 保持白色（也可换成浅蓝、金色等） */
+}
+.topnav {
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.intro-header {
+  padding-top: 40;
+  padding-bottom: 0;
+  text-align: center;
+  color: #f8f8f8;
+  background-size: cover;
+  background-color: #0d4469;
+
+}
+
+.intro-message {
+  padding-top: 80px;
+  padding-bottom: 15px;
+}
+
+.intro-message > h1 {
+  font-size: 5em;
+  font-weight: 700;
+}
+
+.intro-message > h3 {
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.intro-social-buttons .btn {
+  margin: 10px;
+  border-radius: 6px;
+  font-size: 22px;
+}
+
+.content-section-b {
+  padding: 50px 0;
+  background-color: #ffffff;
+}
+
+.section-heading {
+  font-size: 2em;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.year-divider {
+  border: 0;
+  height: 1px;
+  background-color: #ccc;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+
+footer {
+  padding: 20px 0;
+  background-color: #f8f8f8;
+}
+
+footer ul {
+  margin-bottom: 10px;
+}
+
+footer ul li a {
+  color: #333;
+}
